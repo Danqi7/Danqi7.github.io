@@ -35,7 +35,7 @@ const MyNavMenu: React.FC = () => {
         <li className="mb-2"><a href="#project" className="text-teal-500 hover:underline">Project</a></li>
         {/* <li className="mb-2"><a href="#teaching" className="text-teal-500 hover:underline">Teaching</a></li> */}
         {/* <li className="mb-2"><a href="#contact" className="text-teal-500 hover:underline">Thoughts</a></li> */}
-        <li className="mb-2"><a href="#contact" className="text-teal-500 hover:underline">Thoughts</a></li>
+        <li className="mb-2"><a href="./blog.html" className="text-teal-500 hover:underline">Thoughts</a></li>
       </ul>
       </div>
 

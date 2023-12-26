@@ -3,7 +3,8 @@ const path = require('path');
 module.exports = {
   entry: {
     index: './src/index.tsx',
-    about: './src/about.tsx'
+    about: './src/about.tsx',
+    blog: './src/blog.tsx',
   },
   output: {
     filename: '[name].js',
