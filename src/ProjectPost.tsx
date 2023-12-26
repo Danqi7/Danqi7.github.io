@@ -1,6 +1,7 @@
 import React from 'react';
 
 interface ProjectCardProps {
+    id: number;
     image: string;
     title: string;
     author: string;
@@ -11,6 +12,7 @@ interface ProjectCardProps {
 
 const projects = [
     {
+        key: 1,
         image: './sent-embed.png',
         title: 'Attention mechanism on GPU',
         author: 'Danqi Liao',
@@ -19,6 +21,7 @@ const projects = [
         code: 'https://github.com/Danqi7/flash-attention-cuda'
     },
     {
+        key: 2,
         image: './sent-embed.png',
         title: 'Peer to Peer Proxy Network',
         author: 'Danqi Liao',
@@ -27,6 +30,7 @@ const projects = [
         code: 'https://github.com/Danqi7/p2p_proxy'
     },
     {
+        key: 3,
         image: './selective-tal.png',
         title: 'Kademlia Distributed Hash Table',
         author: 'Danqi Liao',
@@ -36,9 +40,9 @@ const projects = [
     }
 ]
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, author, description, paper, code }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ id, image, title, author, description, paper, code }) => {
     return (
-        <div className='container mb-6'>
+        <div className='container mb-6' key={id}>
             {/* <div className="w-1/3">
                 <img src={image} alt={title} />
             </div> */}
@@ -69,6 +73,7 @@ const ProjectList: React.FC = () => {
             <div className='my-6 w-full text-base font-nanum'>
                 {projects.map((project) => (
                     <ProjectCard
+                        id={project.key}
                         image={project.image}
                         title={project.title}
                         author={project.author}

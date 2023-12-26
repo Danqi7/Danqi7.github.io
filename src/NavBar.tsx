@@ -31,8 +31,8 @@ const MyNavMenu: React.FC = () => {
       <ul>
         <li className="mb-2"><a href="./index.html" className="text-teal-500 hover:underline">Home</a></li>
         {/* <li className="mb-2"><a href="./about.html" className="text-teal-500 hover:underline selection:font-bold">Bio</a></li> */}
-        <li className="mb-2"><a href="#pub" className="text-teal-500 hover:underline">Publication</a></li>
-        <li className="mb-2"><a href="#project" className="text-teal-500 hover:underline">Project</a></li>
+        <li className="mb-2"><a href="./index.html#pub" className="text-teal-500 hover:underline">Publication</a></li>
+        <li className="mb-2"><a href="./index.html#project" className="text-teal-500 hover:underline">Project</a></li>
         {/* <li className="mb-2"><a href="#teaching" className="text-teal-500 hover:underline">Teaching</a></li> */}
         {/* <li className="mb-2"><a href="#contact" className="text-teal-500 hover:underline">Thoughts</a></li> */}
         <li className="mb-2"><a href="./blog.html" className="text-teal-500 hover:underline">Thoughts</a></li>

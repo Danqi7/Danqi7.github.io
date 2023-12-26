@@ -1,6 +1,7 @@
 import React from 'react';
 
 interface PublicationCardProps {
+    id: number;
     image: string;
     title: string;
     author: string;
@@ -11,6 +12,7 @@ interface PublicationCardProps {
 
 const publications = [
     {
+        id: 1,
         image: './selective-tal.png',
         title: 'Assessing Neural Network Representations During Training Using Noise-resilient Diffusion Spectral Entropy',
         author: 'Danqi Liao*, Chen Liu*, Ben Christensen, Alexander Tong, Guillaume Huguet, Guy Wolf, Maximilian Nickel, Ian Adelstein, Smita Krishnaswamy',
@@ -19,6 +21,7 @@ const publications = [
         code: 'https://github.com/ChenLiu-1996/DiffusionSpectralEntropy'
     },
     {
+        id: 2,
         image: './sent-embed.png',
         title: 'Sentence Embeddings using Supervised Contrastive Learning',
         author: 'Danqi Liao',
@@ -27,6 +30,7 @@ const publications = [
         code: 'https://github.com/Danqi7/584-final#sentence-embeddings-using-supervised-contrastive-learning'
     },
     {
+        id: 3,
         image: './selective-tal.png',
         title: 'Selective Feature Aggregation for Single Frame Supervised Temporal Action Localization',
         author: 'Danqi Liao',
@@ -36,9 +40,9 @@ const publications = [
     },
 ]
 
-const PublicationCard: React.FC<PublicationCardProps> = ({ image, title, author, description, paper, code }) => {
+const PublicationCard: React.FC<PublicationCardProps> = ({ id, image, title, author, description, paper, code }) => {
     return (
-        <div className='container mb-6'>
+        <div className='container mb-6' key={id} >
             {/* <div className="w-1/3">
                 <img src={image} alt={title} />
             </div> */}
@@ -69,6 +73,7 @@ const PublicationList: React.FC = () => {
             <div className='my-6 w-full text-base font-nanum'>
                 {publications.map((publication) => (
                     <PublicationCard
+                        id={publication.id}
                         image={publication.image}
                         title={publication.title}
                         author={publication.author}
