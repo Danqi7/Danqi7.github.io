@@ -12,7 +12,7 @@ const BioContent: React.FC = () => {
   return (
     <div>
     <div className='my-6 w-full font-nanum' id='bio'>
-        <h2 className="text-xl mb-2 inline-block font-semibold">About Danqi,
+        <h2 className="text-xl mb-2 inline-block font-semibold">About Danqi
         <span className='block bg-slate-200 border-l-0 border-r-0 h-1 my-1'>{""}</span>
         </h2>
       </div>

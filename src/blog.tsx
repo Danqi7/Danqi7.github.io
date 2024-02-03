@@ -7,9 +7,9 @@ const posts = [
     {
       id: 1,
       title: 'My Poems',
-      href: '#',
+      href: 'blog_poems.html',
       description:
-        '模型复几何, 巨蟒吞千色',
+        'Poems and Code',
       date: 'Nov 16, 2023',
       datetime: '2023-11-16',
       category: { title: 'Poetry', href: '#' },

@@ -16,7 +16,7 @@ const publications = [
         image: './selective-tal.png',
         title: 'Assessing Neural Network Representations During Training Using Noise-resilient Diffusion Spectral Entropy',
         author: 'Danqi Liao*, Chen Liu*, Ben Christensen, Alexander Tong, Guillaume Huguet, Guy Wolf, Maximilian Nickel, Ian Adelstein, Smita Krishnaswamy',
-        description: 'ICML Workshop, 2023',
+        description: 'ICML TAG-ML, 2023',
         paper: 'https://arxiv.org/abs/2312.04823',
         code: 'https://github.com/ChenLiu-1996/DiffusionSpectralEntropy'
     },

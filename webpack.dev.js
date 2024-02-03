@@ -5,6 +5,7 @@ module.exports = {
     index: './src/index.tsx',
     about: './src/about.tsx',
     blog: './src/blog.tsx',
+    blog_poems: './src/blog_poems.tsx',
   },
   output: {
     filename: '[name].js',
