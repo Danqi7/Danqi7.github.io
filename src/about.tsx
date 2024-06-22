@@ -24,10 +24,10 @@ const BioContent: React.FC = () => {
       </p>
       <br />
       <p>
-      My research interests include <b>geometric, manifold learning, and deep learning</b>.
+      My research interests include <b>geometric, manifold learning, and represenation learning</b>.
       Specifically, I am interested in studying the characteristics that make <b>expressive and 
       generalizable embeddings</b> and developing efficient and principled methods to achieve 
-      such representations. I am also interested in <b>ML/AI for biosciences discovery</b>.
+      such representations.
       </p>
       <br />
       <p>
