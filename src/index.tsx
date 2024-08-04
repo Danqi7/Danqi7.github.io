@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
           <p className="text-center text-xs leading-5 text-gray-500 font-nanum font-bold">
-            &copy; 2023 Danqi Liao. All rights reserved.
+            &copy; 2024 Danqi Liao. All rights reserved.
           </p>
         </div>
       </div>
@@ -140,16 +140,16 @@ const BioContent: React.FC = () => {
       </p>
       <br />
       <p>
-      My research interests include <b>geometric, manifold learning, and representation learning</b>.
+      My research interests include <b>geometric, manifold learning, and deep learning</b>.
       Specifically, I am interested in studying the characteristics that make <b>expressive and 
       generalizable embeddings</b> and developing efficient and principled methods to achieve 
-      such representations.
+      such representations. I am also interested in AI/ML for bioscience.
       </p>
       <br />
       <p>
       I graduated Magna Cum Laude from Northwestern University and obtained my master's degree from Princeton University. 
-      {/* While at Princeton, I worked on computer perception and video recognition 
-      in <a href='https://visualai.princeton.edu' className="hover:underline hover:font-semibold hover:bg-orange-500">Prof. Olga Russakovsky's</a> lab.  */}
+      While at Princeton, I worked on computer perception and video recognition 
+      in <a href='https://visualai.princeton.edu' className="hover:underline hover:font-semibold hover:bg-orange-500">Prof. Olga Russakovsky's</a> lab. 
       </p>
       <br />
       <p>Before Princeton, I worked as a software engineer at Meta for two years. </p>
@@ -215,9 +215,9 @@ function App(): JSX.Element {
         <Content>
           <BioContent />
           {/* <PubContent /> */}
-          {/* <PublicationList /> */}
+          <PublicationList />
           {/* <ProjectContent /> */}
-          {/* <ProjectList /> */}
+          <ProjectList />
           <TeachingContent />
           <Footer />
         </Content>

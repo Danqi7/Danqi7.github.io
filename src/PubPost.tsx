@@ -14,6 +14,15 @@ const publications = [
     {
         id: 1,
         image: './selective-tal.png',
+        title: 'Geometry-Aware Autoencoders for Metric Learning and Generative Modeling on Data Manifolds',
+        author: 'Xingzhi Sun *, Danqi Liao *, Kincaid MacDonald*, Yanlei Zhang, Guillaume Huguet, Guy Wolf, Ian Adelstein,Tim G. J. Rudner, Smita Krishnaswamy',
+        description: 'ICML GRaM, 2024',
+        paper: 'https://openreview.net/pdf?id=EYQZjMcn4l',
+        code: ''
+    },
+    {
+        id: 2,
+        image: './selective-tal.png',
         title: 'Assessing Neural Network Representations During Training Using Noise-resilient Diffusion Spectral Entropy',
         author: 'Danqi Liao*, Chen Liu*, Ben Christensen, Alexander Tong, Guillaume Huguet, Guy Wolf, Maximilian Nickel, Ian Adelstein, Smita Krishnaswamy',
         description: 'ICML TAG-ML, 2023',
@@ -21,7 +30,7 @@ const publications = [
         code: 'https://github.com/ChenLiu-1996/DiffusionSpectralEntropy'
     },
     {
-        id: 2,
+        id: 3,
         image: './sent-embed.png',
         title: 'Sentence Embeddings using Supervised Contrastive Learning',
         author: 'Danqi Liao',
@@ -30,7 +39,7 @@ const publications = [
         code: 'https://github.com/Danqi7/584-final#sentence-embeddings-using-supervised-contrastive-learning'
     },
     {
-        id: 3,
+        id: 4,
         image: './selective-tal.png',
         title: 'Selective Feature Aggregation for Single Frame Supervised Temporal Action Localization',
         author: 'Danqi Liao',
