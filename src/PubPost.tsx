@@ -16,7 +16,7 @@ const publications = [
         image: './selective-tal.png',
         title: 'Geometry-Aware Generative Autoencodersfor Warped Riemannian Metric Learning and Generative Modeling on Data Manifolds',
         author: 'Xingzhi Sun *, Danqi Liao *, Kincaid MacDonald*, Yanlei Zhang, Guillaume Huguet, Guy Wolf, Ian Adelstein,Tim G. J. Rudner, Smita Krishnaswamy',
-        description: 'ICML GRaM, 2024 | arXiv',
+        description: 'AISTATS, 2025 |ICML GRaM, 2024 | arXiv',
         paper: 'https://arxiv.org/abs/2410.12779',
         code: ''
     },
