@@ -16,7 +16,7 @@ function classNames(...classes: string[]) {
 
 const MyNavMenu: React.FC = () => {
   return (
-    <div className="w-1/4 p-4 text-right text-xl font-nanum">
+    <div className="w-1/4 p-4 text-right text-xl font-space-mono">
 
       {/* <div className="mb-4 mt-4 float-right">
         <img src="./profile-sq.jpg" alt="Profile" className="w-32 h-32 mx-auto rounded-lg shadow-sm" />
@@ -27,7 +27,7 @@ const MyNavMenu: React.FC = () => {
       <h1 className="text-2xl mb-2 text-teal-500 font-extrabold">Danqi Liao</h1>
       </div>
 
-      <div className='mt-4 float-right font-nanum'>
+      <div className='mt-4 float-right font-space-mono'>
       <ul>
         <li className="mb-2"><a href="./index.html" className="text-teal-500 hover:underline">Home</a></li>
         {/* <li className="mb-2"><a href="./about.html" className="text-teal-500 hover:underline selection:font-bold">Bio</a></li> */}

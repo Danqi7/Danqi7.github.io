@@ -67,10 +67,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ id, image, title, author, des
 const ProjectList: React.FC = () => {
     return (
         <div className='my-6 w-full' id='project'>
-            <h2 className="text-xl mb-2 inline-block font-nanum font-semibold">Projects
+            <h2 className="text-xl mb-2 inline-block font-inconsolata font-semibold">Projects
                 <span className='block bg-slate-300 border-l-0 border-r-0 h-1 mt-1'>{""}</span>
             </h2>
-            <div className='my-6 w-full text-base font-nanum'>
+            <div className='my-6 w-full text-base font-inconsolata'>
                 {projects.map((project) => (
                     <ProjectCard
                         id={project.key}

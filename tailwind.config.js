@@ -5,7 +5,12 @@ module.exports = {
     extend: {
       fontFamily: {
         'lora': ['Lora', 'serif'],
-        'nanum': ['Nanum Myeongjo', 'serif']
+        'nanum': ['Nanum Myeongjo', 'serif'],
+        'helvetica': ['Helvetica', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif'],
+        'space-mono': ['Space Mono', 'monospace'],
+        'inter': ['Inter', 'sans-serif'],
+        'inconsolata': ['Inconsolata', 'monospace']
       },
     },
   },

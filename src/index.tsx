@@ -5,6 +5,8 @@ import {NavBar, MyNavMenu} from './NavBar';
 import PublicationList from './PubPost';
 import ProjectList from './ProjectPost';
 
+import './input.css';
+
 interface iconProps {
   className?: string;
   ariaHidden?: boolean;
@@ -48,8 +50,8 @@ const Footer: React.FC = () => {
           ))}
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
-          <p className="text-center text-xs leading-5 text-gray-500 font-nanum font-bold">
-            &copy; 2024 Danqi Liao. All rights reserved.
+          <p className="text-center text-xs leading-5 text-gray-500 font-space-mono font-bold">
+            &copy; 2025 Danqi Liao. All rights reserved.
           </p>
         </div>
       </div>
@@ -61,10 +63,10 @@ const PubContent: React.FC = () => {
   return (
     <div>
     <div className='my-6 w-full' id='pub'>
-        <h2 className="text-xl mb-2 inline-block font-nanum font-semibold">Publications
+        <h2 className="text-xl mb-2 inline-block font-space-mono font-semibold">Publications
         <span className='block bg-slate-300 border-l-0 border-r-0 h-1 mt-1'>{""}</span>
         </h2>
-        <div className='my-6 w-full text-base font-nanum'>
+        <div className='my-6 w-full text-base font-space-mono'>
           <ul>
             <li>Sentence Embeddings using Supervised Contrastive Learning</li>
             <li>Selective Feature Aggregation for Single Frame Supervised Temporal Action Localization</li>
@@ -79,10 +81,10 @@ const ProjectContent: React.FC = () => {
   return (
     <div>
     <div className='my-6 w-full' id='project'>
-        <h2 className="text-xl mb-2 inline-block font-nanum font-semibold">Project
+        <h2 className="text-xl mb-2 inline-block font-space-mono font-semibold">Project
         <span className='block bg-slate-300 border-l-0 border-r-0 h-1 mt-1'>{""}</span>
         </h2>
-        <div className='my-6 w-full text-base font-nanum'>
+        <div className='my-6 w-full text-base font-space-mono'>
           <ul>
             <li>Peer to Peer Proxy Network</li>
           </ul>
@@ -95,11 +97,17 @@ const ProjectContent: React.FC = () => {
 const TeachingContent: React.FC = () => {
   return (
     <div>
-    <div className='my-6 w-full font-inter font-medium' id='teaching'>
-        <h2 className="text-xl mb-2 inline-block font-nanum font-semibold">Teaching (as TA/Head TA)
+    <div className='my-6 w-full font-inconsolata font-medium' id='teaching'>
+        <h2 className="text-xl mb-2 inline-block font-inconsolata font-semibold">Teaching (as TA/Head TA)
         <span className='block bg-slate-300 border-l-0 border-r-0 h-1 my-1'>{""}</span>
         </h2>
-        <div className='my-6 w-full text-base font-nanum'>
+        <div className='my-6 w-full text-base font-inconsolata'>
+          <li>
+            <b>CPSC452: Deep Learning Theory and Applications </b>, Yale, Spring 25
+          </li>
+          <li>
+            <b>CPSC474: Computer Vision and Biological Perception</b>, Yale, Fall 24
+          </li>
           <li>
             <b>COS429: Computer Vision</b>, Princeton University, Fall 21
           </li>
@@ -127,13 +135,13 @@ const TeachingContent: React.FC = () => {
 const BioContent: React.FC = () => {
   return (
     <div>
-    <div className='my-6 w-full font-nanum' id='bio'>
+    <div className='my-6 w-full font-inconsolata text-gray-800' id='bio'>
         <h2 className="text-xl mb-2 inline-block font-semibold">About Danqi,
         <span className='block bg-slate-200 border-l-0 border-r-0 h-1 my-1'>{""}</span>
         </h2>
       </div>
 
-      <div className='my-6 w-full text-lg font-nanum'>
+      <div className='my-6 w-full text-lg font-inconsolata text-gray-800'>
       <p>
       I am currently a Ph.D. student in the Computer Science department at Yale University, advised by
       <a href='https://krishnaswamylab.org' className=" hover:underline hover:font-semibold hover:bg-blue-500"> Prof. Smita Krishnaswamy</a>.
@@ -169,38 +177,6 @@ const Content: React.FC<ContentProps> = ({children}) => {
   );
 }
 
-const NavMenu: React.FC = () => {
-  return (
-    <div className="w-1/4 p-4 text-right text-xl font-nanum">
-
-      <div className="mb-4 mt-4 float-right">
-        <img src="./profile-sq.jpg" alt="Profile" className="w-32 h-32 mx-auto rounded-lg shadow-sm" />
-      </div>
-
-      <div className='float-right'>
-      <h2 className="text-xl text-gray-400 ">home page of</h2>
-      <h1 className="text-2xl mb-2 text-teal-500 font-extrabold">Danqi Liao</h1>
-      </div>
-
-      <div className='mt-4 float-right font-nanum'>
-      <ul>
-        <li className="mb-2"><a href="index.html#bio" className="text-teal-500 hover:underline selection:font-bold">Bio</a></li>
-        <li className="mb-2"><a href="index.html#pub" className="text-teal-500 hover:underline">Publication</a></li>
-        {/* <li className="mb-2"><a href="#teaching" className="text-teal-500 hover:underline">Teaching</a></li> */}
-        <li className="mb-2"><a href="index.html#project" className="text-teal-500 hover:underline">Project</a></li>
-        {/* <li className="mb-2"><a href="#contact" className="text-teal-500 hover:underline">Contact</a></li> */}
-      </ul>
-      </div>
-    </div>
-  );
-}
-
-// const Footer: React.FC = () => {
-//   return (
-//     <div className="my-2">
-//       <div className="w-full float-left text-gray-500 font-nanum font-light">
-//         <p>© 2023 Danqi Liao</p>
-//       </div>
 //     </div>
 //   );
 // }

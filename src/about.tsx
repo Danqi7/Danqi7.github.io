@@ -11,13 +11,13 @@ interface ContentProps {
 const BioContent: React.FC = () => {
   return (
     <div>
-    <div className='my-6 w-full font-nanum' id='bio'>
+    <div className='my-6 w-full font-roboto' id='bio'>
         <h2 className="text-xl mb-2 inline-block font-semibold">About Danqi
         <span className='block bg-slate-200 border-l-0 border-r-0 h-1 my-1'>{""}</span>
         </h2>
       </div>
 
-      <div className='my-6 w-full text-lg font-nanum'>
+      <div className='my-6 w-full text-lg font-roboto'>
       <p>
       I am currently a Ph.D. student in the Computer Science department at Yale University, advised by
       <a href='https://krishnaswamylab.org' className=" hover:underline hover:font-semibold hover:bg-blue-500"> Prof. Smita Krishnaswamy</a>.

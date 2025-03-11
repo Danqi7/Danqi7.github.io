@@ -1,7 +1,8 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 
-import {MyNavMenu} from './NavBar';
+import { MyNavMenu } from './NavBar';
+import './input.css';
 
 import Markdown from 'react-markdown';
 
@@ -50,7 +51,7 @@ const content2 = `
 
 const App: React.FC = () => {
     return (
-        <div className="flex justify-center h-screen font-nanum"> 
+        <div className="flex justify-center h-screen font-helvetica"> 
         <div className="container max-w-4xl mx-auto p-4 flex rounded mb-10">
         <MyNavMenu />
         <Content>

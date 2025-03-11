@@ -1,8 +1,8 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 
-import {MyNavMenu} from './NavBar';
-
+import { MyNavMenu } from './NavBar';
+import './input.css';
 const posts = [
     {
       id: 1,
@@ -19,7 +19,7 @@ const posts = [
   
 const BlogList: React.FC = () => {
     return (
-        <div className='w-full font-nanum mt-6 mb-12' id='bio'>
+        <div className='w-full font-helvetica mt-6 mb-12' id='bio'>
               {posts.map((post) => (
                 <article key={post.id} className="flex max-w-xl flex-col items-start justify-between">
                   <div className="flex items-center gap-x-4 text-xs">

@@ -15,26 +15,26 @@ const publications = [
         id: 1,
         image: './selective-tal.png',
         title: 'Geometry-Aware Generative Autoencodersfor Warped Riemannian Metric Learning and Generative Modeling on Data Manifolds',
-        author: 'Xingzhi Sun *, Danqi Liao *, Kincaid MacDonald*, Yanlei Zhang, Guillaume Huguet, Guy Wolf, Ian Adelstein,Tim G. J. Rudner, Smita Krishnaswamy',
+        author: 'Xingzhi Sun *, Danqi Liao *, Kincaid MacDonald, Yanlei Zhang, Guillaume Huguet, Guy Wolf, Ian Adelstein,Tim G. J. Rudner, Smita Krishnaswamy',
         description: 'AISTATS, 2025 |ICML GRaM, 2024 | arXiv',
         paper: 'https://arxiv.org/abs/2410.12779',
-        code: ''
+        code: 'https://github.com/KrishnaswamyLab/GeometryAwareGenerativeAutoencoder'
     },
     {
         id: 2,
         image: './selective-tal.png',
         title: 'DiffKillR: Killing and Recreating Diffeomorphisms for Cell Annotation in Dense Microscopy Images',
         author: 'Chen Liu *, Danqi Liao *, Alejandro Parada-Mayorga *, Alejandro Ribeiro, Marcello DiStasio, Smita Krishnaswamy',
-        description: 'arXiv, 2024',
+        description: 'ICASSP, 2025 | arXiv, 2024',
         paper: 'https://arxiv.org/abs/2410.03058',
-        code: ''
+        code: 'https://github.com/KrishnaswamyLab/DiffKillR'
     },
     {
         id: 3,
         image: './selective-tal.png',
         title: 'Assessing Neural Network Representations During Training Using Noise-resilient Diffusion Spectral Entropy',
         author: 'Danqi Liao*, Chen Liu*, Ben Christensen, Alexander Tong, Guillaume Huguet, Guy Wolf, Maximilian Nickel, Ian Adelstein, Smita Krishnaswamy',
-        description: 'ICML TAG-ML, 2023',
+        description: 'CISS, 2024 | ICML TAG-ML, 2023',
         paper: 'https://arxiv.org/abs/2312.04823',
         code: 'https://github.com/ChenLiu-1996/DiffusionSpectralEntropy'
     },
@@ -60,13 +60,13 @@ const publications = [
 
 const PublicationCard: React.FC<PublicationCardProps> = ({ id, image, title, author, description, paper, code }) => {
     return (
-        <div className='container mb-6' key={id} >
+        <div className='container mb-6 text-gray-800' key={id} >
             {/* <div className="w-1/3">
                 <img src={image} alt={title} />
             </div> */}
             <div className='mb-1'>
-                <h2 className='font-extrabold font'>{title}</h2>
-                <p className='font-thin text-sm italic text-gray-600'>{author}</p>
+                <h2 className='font-extrabold font-inconsolata'>{title}</h2>
+                <p className='text-sm italic text-gray-600'>{author}</p>
 
                 <div className='flex justify-between'>
                     <div>
@@ -85,10 +85,10 @@ const PublicationCard: React.FC<PublicationCardProps> = ({ id, image, title, aut
 const PublicationList: React.FC = () => {
     return (
         <div className='my-6 w-full' id='pub'>
-            <h2 className="text-xl mb-2 inline-block font-nanum font-semibold">Publications
+            <h2 className="text-xl mb-2 inline-block font-inconsolata font-semibold text-gray-800">Publications
                 <span className='block bg-slate-300 border-l-0 border-r-0 h-1 mt-1'>{""}</span>
             </h2>
-            <div className='my-6 w-full text-base font-nanum'>
+            <div className='my-6 w-full text-base font-inconsolata text-gray-800'>
                 {publications.map((publication) => (
                     <PublicationCard
                         id={publication.id}
