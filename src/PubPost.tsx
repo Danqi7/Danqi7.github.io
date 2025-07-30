@@ -14,6 +14,15 @@ const publications = [
     {
         id: 1,
         image: './selective-tal.png',
+        title: 'To Optimize, Not to Invent: RNAGenScape for mRNA Sequence Generation and Optimization Without de novo Design',
+        author: 'Danqi Liao *, Chen Liu *, Xingzhi Sun, Die Tang, Haochen Wang, Scott Elliot Youlten, Antonio J Giraldez, Smita Krishnaswamy',
+        description: 'Spotlight @ ICML GenBio, 2025',
+        paper: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Zj-T1fAAAAAJ&citation_for_view=Zj-T1fAAAAAJ:ufrVoPGSRksC',
+        code: 'https://github.com/Danqi7/mRNA-translation'
+    },
+    {
+        id: 2,
+        image: './selective-tal.png',
         title: 'Geometry-Aware Generative Autoencodersfor Warped Riemannian Metric Learning and Generative Modeling on Data Manifolds',
         author: 'Xingzhi Sun *, Danqi Liao *, Kincaid MacDonald, Yanlei Zhang, Guillaume Huguet, Guy Wolf, Ian Adelstein,Tim G. J. Rudner, Smita Krishnaswamy',
         description: 'AISTATS, 2025 |ICML GRaM, 2024 | arXiv',
@@ -21,7 +30,7 @@ const publications = [
         code: 'https://github.com/KrishnaswamyLab/GeometryAwareGenerativeAutoencoder'
     },
     {
-        id: 2,
+        id: 3,
         image: './selective-tal.png',
         title: 'DiffKillR: Killing and Recreating Diffeomorphisms for Cell Annotation in Dense Microscopy Images',
         author: 'Chen Liu *, Danqi Liao *, Alejandro Parada-Mayorga *, Alejandro Ribeiro, Marcello DiStasio, Smita Krishnaswamy',
@@ -30,7 +39,7 @@ const publications = [
         code: 'https://github.com/KrishnaswamyLab/DiffKillR'
     },
     {
-        id: 3,
+        id: 4,
         image: './selective-tal.png',
         title: 'Assessing Neural Network Representations During Training Using Noise-resilient Diffusion Spectral Entropy',
         author: 'Danqi Liao*, Chen Liu*, Ben Christensen, Alexander Tong, Guillaume Huguet, Guy Wolf, Maximilian Nickel, Ian Adelstein, Smita Krishnaswamy',
@@ -39,7 +48,7 @@ const publications = [
         code: 'https://github.com/ChenLiu-1996/DiffusionSpectralEntropy'
     },
     {
-        id: 4,
+        id: 5,
         image: './sent-embed.png',
         title: 'Sentence Embeddings using Supervised Contrastive Learning',
         author: 'Danqi Liao',
@@ -48,7 +57,7 @@ const publications = [
         code: 'https://github.com/Danqi7/584-final#sentence-embeddings-using-supervised-contrastive-learning'
     },
     {
-        id: 5,
+        id: 6,
         image: './selective-tal.png',
         title: 'Selective Feature Aggregation for Single Frame Supervised Temporal Action Localization',
         author: 'Danqi Liao',
