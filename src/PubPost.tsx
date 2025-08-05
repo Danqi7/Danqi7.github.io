@@ -16,7 +16,7 @@ const publications = [
         image: './selective-tal.png',
         title: 'To Optimize, Not to Invent: RNAGenScape for mRNA Sequence Generation and Optimization Without de novo Design',
         author: 'Danqi Liao *, Chen Liu *, Xingzhi Sun, Die Tang, Haochen Wang, Scott Elliot Youlten, Antonio J Giraldez, Smita Krishnaswamy',
-        description: 'Spotlight @ ICML GenBio, 2025',
+        description: 'Spotlight, Oral @ ICML GenBio, 2025',
         paper: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Zj-T1fAAAAAJ&citation_for_view=Zj-T1fAAAAAJ:ufrVoPGSRksC',
         code: 'https://github.com/Danqi7/mRNA-translation'
     },
@@ -34,7 +34,7 @@ const publications = [
         image: './selective-tal.png',
         title: 'DiffKillR: Killing and Recreating Diffeomorphisms for Cell Annotation in Dense Microscopy Images',
         author: 'Chen Liu *, Danqi Liao *, Alejandro Parada-Mayorga *, Alejandro Ribeiro, Marcello DiStasio, Smita Krishnaswamy',
-        description: 'ICASSP, 2025 | arXiv, 2024',
+        description: 'Oral @ ICASSP, 2025 | arXiv, 2024',
         paper: 'https://arxiv.org/abs/2410.03058',
         code: 'https://github.com/KrishnaswamyLab/DiffKillR'
     },
