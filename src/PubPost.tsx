@@ -17,7 +17,7 @@ const publications = [
         title: 'To Optimize, Not to Invent: RNAGenScape for mRNA Sequence Generation and Optimization Without de novo Design',
         author: 'Danqi Liao *, Chen Liu *, Xingzhi Sun, Die Tang, Haochen Wang, Scott Elliot Youlten, Antonio J Giraldez, Smita Krishnaswamy',
         description: 'Spotlight, Oral @ ICML GenBio, 2025',
-        paper: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Zj-T1fAAAAAJ&citation_for_view=Zj-T1fAAAAAJ:ufrVoPGSRksC',
+        paper: 'https://arxiv.org/abs/2510.24736',
         code: 'https://github.com/Danqi7/mRNA-translation'
     },
     {

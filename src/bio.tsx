@@ -20,7 +20,7 @@ const BioContent: React.FC = () => {
 
       <div className='my-6 w-full text-lg font-roboto'>
       <p>
-      I am currently a Ph.D. student in the Computer Science department at Yale University, advised by
+      I am currently a Ph.D. candidate in the Computer Science department at Yale University, advised by
       <a href='https://krishnaswamylab.org' className=" hover:underline hover:font-semibold hover:bg-blue-500"> Prof. Smita Krishnaswamy</a>.
       </p>
       <br />
@@ -38,6 +38,8 @@ const BioContent: React.FC = () => {
       </p>
       <br />
       <p>Before Princeton, I worked as a software engineer at Meta for two years. </p>
+      <br />
+      <p>Proud builder of <a href='https://particlenotes.com' className="hover:underline hover:font-semibold hover:bg-orange-500">ParticleNotes</a></p>
       </div>
     </div>
   )

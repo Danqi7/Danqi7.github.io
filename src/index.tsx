@@ -143,12 +143,12 @@ const BioContent: React.FC = () => {
 
       <div className='my-6 w-full text-lg font-inconsolata text-gray-800'>
       <p>
-      I am currently a Ph.D. student in the Computer Science department at Yale University, advised by
+      I am currently a Ph.D. candidate in the Computer Science department at Yale University, advised by
       <a href='https://krishnaswamylab.org' className=" hover:underline hover:font-semibold hover:bg-blue-500"> Prof. Smita Krishnaswamy</a>.
       </p>
       <br />
       <p>
-      My research interests include <b>geometric, manifold learning, and deep learning</b>.
+      My research interests include <b>geometry, manifold-aware generative modeling and representation learning</b>.
       Specifically, I am interested in studying the characteristics that make <b>expressive and 
       generalizable embeddings</b> and developing efficient and principled methods to achieve 
       such representations. I am also interested in AI/ML for bioscience.
@@ -161,6 +161,8 @@ const BioContent: React.FC = () => {
       </p>
       <br />
       <p>Before Princeton, I worked as a software engineer at Meta for two years. </p>
+      <br />
+      <p>Builder of <a href='https://particlenotes.com' className="underline hover:font-semibold hover:bg-indigo-500">particlenotes.com</a> .</p>
       </div>
     </div>
   )
