@@ -14,6 +14,15 @@ const projects = [
     {
         key: 1,
         image: './sent-embed.png',
+        title: 'TorchDR',
+        author: 'Danqi Liao',
+        description: ' Contributor to TorchDR, an open-source library for dimensionality reduction (DR) built on PyTorch.',
+        paper: '',
+        code: 'https://github.com/TorchDR/TorchDR'
+    },
+    {
+        key: 2,
+        image: './sent-embed.png',
         title: 'Attention mechanism on GPU',
         author: 'Danqi Liao',
         description: ' My CUDA c implementation of forwad pass of regular Attention and FlashAttention.',
@@ -21,7 +30,7 @@ const projects = [
         code: 'https://github.com/Danqi7/flash-attention-cuda'
     },
     {
-        key: 2,
+        key: 3,
         image: './sent-embed.png',
         title: 'Peer to Peer Proxy Network',
         author: 'Danqi Liao',
@@ -30,7 +39,7 @@ const projects = [
         code: 'https://github.com/Danqi7/p2p_proxy'
     },
     {
-        key: 3,
+        key: 4,
         image: './selective-tal.png',
         title: 'Kademlia Distributed Hash Table',
         author: 'Danqi Liao',
@@ -42,13 +51,13 @@ const projects = [
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ id, image, title, author, description, paper, code }) => {
     return (
-        <div className='container mb-6' key={id}>
+        <div className='container mb-4' key={id}>
             {/* <div className="w-1/3">
                 <img src={image} alt={title} />
             </div> */}
             <div className='mb-1'>
                 <h2 className='font-extrabold font'>{title}</h2>
-                <p className='font-thin text-sm italic text-gray-600'>{author}</p>
+                {/* <p className='font-thin text-sm italic text-gray-600'>{author}</p> */}
 
                 <div className='flex justify-between'>
                     <div>
@@ -66,11 +75,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ id, image, title, author, des
 
 const ProjectList: React.FC = () => {
     return (
-        <div className='my-6 w-full' id='project'>
+        <div className='my-4 w-full' id='project'>
             <h2 className="text-xl mb-2 inline-block font-inconsolata font-semibold">Projects
                 <span className='block bg-slate-300 border-l-0 border-r-0 h-1 mt-1'>{""}</span>
             </h2>
-            <div className='my-6 w-full text-base font-inconsolata'>
+            <div className='my-2 w-full text-base font-inconsolata'>
                 {projects.map((project) => (
                     <ProjectCard
                         id={project.key}

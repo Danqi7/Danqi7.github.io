@@ -97,11 +97,11 @@ const ProjectContent: React.FC = () => {
 const TeachingContent: React.FC = () => {
   return (
     <div>
-    <div className='my-6 w-full font-inconsolata font-medium' id='teaching'>
+    <div className='my-1 w-full font-inconsolata font-medium' id='teaching'>
         <h2 className="text-xl mb-2 inline-block font-inconsolata font-semibold">Teaching (as TA/Head TA)
         <span className='block bg-slate-300 border-l-0 border-r-0 h-1 my-1'>{""}</span>
         </h2>
-        <div className='my-6 w-full text-base font-inconsolata'>
+        <div className='my-2 w-full text-base font-inconsolata'>
           <li>
             <b>CPSC452: Deep Learning Theory and Applications </b>, Yale, Spring 25
           </li>
@@ -135,13 +135,13 @@ const TeachingContent: React.FC = () => {
 const BioContent: React.FC = () => {
   return (
     <div>
-    <div className='my-6 w-full font-inconsolata text-gray-800' id='bio'>
+    <div className='my-1 w-full font-inconsolata text-gray-800' id='bio'>
         <h2 className="text-xl mb-2 inline-block font-semibold">About Danqi,
-        <span className='block bg-slate-200 border-l-0 border-r-0 h-1 my-1'>{""}</span>
+        <span className='block bg-slate-200 border-l-0 border-r-0 h-1 my-0.5'>{""}</span>
         </h2>
       </div>
 
-      <div className='my-6 w-full text-lg font-inconsolata text-gray-800'>
+      <div className='my-2 w-full text-lg font-inconsolata text-gray-800'>
       <p>
       I am currently a Ph.D. candidate in the Computer Science department at Yale University, advised by
       <a href='https://krishnaswamylab.org' className=" hover:underline hover:font-semibold hover:bg-blue-500"> Prof. Smita Krishnaswamy</a>.

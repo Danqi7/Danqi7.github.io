@@ -93,11 +93,11 @@ const PublicationCard: React.FC<PublicationCardProps> = ({ id, image, title, aut
 
 const PublicationList: React.FC = () => {
     return (
-        <div className='my-6 w-full' id='pub'>
+        <div className='my-4 w-full' id='pub'>
             <h2 className="text-xl mb-2 inline-block font-inconsolata font-semibold text-gray-800">Publications
                 <span className='block bg-slate-300 border-l-0 border-r-0 h-1 mt-1'>{""}</span>
             </h2>
-            <div className='my-6 w-full text-base font-inconsolata text-gray-800'>
+            <div className='my-2 w-full text-base font-inconsolata text-gray-800'>
                 {publications.map((publication) => (
                     <PublicationCard
                         id={publication.id}
