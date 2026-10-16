@@ -162,7 +162,10 @@ const BioContent: React.FC = () => {
       <br />
       <p>Before Princeton, I worked as a software engineer at Meta for two years. </p>
       <br />
-      <p>Builder of <a href='https://particlenotes.com' className="underline hover:font-semibold hover:bg-indigo-500">particlenotes.com</a> .</p>
+      <p>Builder of 
+        <a href='https://github.com/Danqi7/nano-scGPT' className="underline hover:font-semibold hover:bg-indigo-500">nano-scGPT</a> , 
+        <a href='https://www.windmirror.ai/nanomirrors.html' className="underline hover:font-semibold hover:bg-indigo-500">nanomirrors</a> ,
+        <a href='https://particlenotes.com' className="underline hover:font-semibold hover:bg-indigo-500">particlenotes.com</a> .</p>
       </div>
     </div>
   )

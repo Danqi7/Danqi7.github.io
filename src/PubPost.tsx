@@ -14,18 +14,18 @@ const publications = [
     {
         id: 1,
         image: './selective-tal.png',
-        title: 'To Optimize, Not to Invent: RNAGenScape for mRNA Sequence Generation and Optimization Without de novo Design',
-        author: 'Danqi Liao *, Chen Liu *, Xingzhi Sun, Die Tang, Haochen Wang, Scott Elliot Youlten, Antonio J Giraldez, Smita Krishnaswamy',
-        description: 'Spotlight, Oral @ ICML GenBio, 2025',
+        title: 'RNAGenScape: Property-Guided, Optimized Generation of mRNA Sequences with Manifold Langevin Dynamics',
+        author: 'Danqi Liao *, Chen Liu *, Xingzhi Sun *, Die Tang, Haochen Wang, Scott Elliot Youlten, Antonio J Giraldez, Smita Krishnaswamy',
+        description: 'NeuraIPS, 2026 | Spotlight, Oral @ ICML GenBio, 2025',
         paper: 'https://arxiv.org/abs/2510.24736',
-        code: 'https://github.com/Danqi7/mRNA-translation'
+        code: 'https://github.com/KrishnaswamyLab/RNAGenScape'
     },
     {
         id: 2,
         image: './selective-tal.png',
         title: 'Geometry-Aware Generative Autoencodersfor Warped Riemannian Metric Learning and Generative Modeling on Data Manifolds',
         author: 'Xingzhi Sun *, Danqi Liao *, Kincaid MacDonald, Yanlei Zhang, Guillaume Huguet, Guy Wolf, Ian Adelstein,Tim G. J. Rudner, Smita Krishnaswamy',
-        description: 'AISTATS, 2025 |ICML GRaM, 2024 | arXiv',
+        description: 'AISTATS, 2025 |ICML GRaM, 2024',
         paper: 'https://arxiv.org/abs/2410.12779',
         code: 'https://github.com/KrishnaswamyLab/GeometryAwareGenerativeAutoencoder'
     },
@@ -34,7 +34,7 @@ const publications = [
         image: './selective-tal.png',
         title: 'DiffKillR: Killing and Recreating Diffeomorphisms for Cell Annotation in Dense Microscopy Images',
         author: 'Chen Liu *, Danqi Liao *, Alejandro Parada-Mayorga *, Alejandro Ribeiro, Marcello DiStasio, Smita Krishnaswamy',
-        description: 'Oral @ ICASSP, 2025 | arXiv, 2024',
+        description: 'Oral @ ICASSP, 2025',
         paper: 'https://arxiv.org/abs/2410.03058',
         code: 'https://github.com/KrishnaswamyLab/DiffKillR'
     },
@@ -49,6 +49,15 @@ const publications = [
     },
     {
         id: 5,
+        image: './selective-tal.png',
+        title: 'ProtScape: A molecular structure and energy-aware representation for protein conformation generation',
+        author: 'Siddharth Viswanath*, Xingzhi Sun*, Lucas Lee, Danqi Liao, Hiren Madhu, David R. Johnson, João Felipe Rocha, Egbert Castro, Jackson D. Grady, Michael Perlmutter, Dhananjay Bhaskar, Smita Krishnaswamy',
+        description: 'LOG, 2026 | MoML, 2025',
+        paper: 'https://arxiv.org/abs/2410.20317',
+        code:  'https://github.com/KrishnaswamyLab/ProtSCAPE-Net'
+    },
+    {
+        id: 6,
         image: './sent-embed.png',
         title: 'Sentence Embeddings using Supervised Contrastive Learning',
         author: 'Danqi Liao',
@@ -57,7 +66,7 @@ const publications = [
         code: 'https://github.com/Danqi7/584-final#sentence-embeddings-using-supervised-contrastive-learning'
     },
     {
-        id: 6,
+        id: 7,
         image: './selective-tal.png',
         title: 'Selective Feature Aggregation for Single Frame Supervised Temporal Action Localization',
         author: 'Danqi Liao',
@@ -65,6 +74,16 @@ const publications = [
         paper: 'https://openreview.net/pdf?id=Gc1r5iq6iL-',
         code: ''
     },
+    {
+        id: 8,
+        image: './selective-tal.png',
+        title: 'Geometry-Aware Representation Learning and Generative Modeling',
+        author: 'Danqi Liao',
+        description: 'PhD Thesis, 2026',
+        paper: 'https://www.proquest.com/openview/d58754eab903255d8738fa1511ed6e1d/1?pq-origsite=gscholar&cbl=18750&diss=y',
+        code: ''
+
+    }
 ]
 
 const PublicationCard: React.FC<PublicationCardProps> = ({ id, image, title, author, description, paper, code }) => {
